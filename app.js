@@ -10,6 +10,10 @@ app.get("/home",(req, res)=>{
     })
 })
 
+app.get("/pruebas", (req, res)=>{
+    res.send('Esto es otra prueba');
+});
+
 app.listen(80, ()=>{
     console.log(`Servidor en linea en el puerto ${port}`);
 });
