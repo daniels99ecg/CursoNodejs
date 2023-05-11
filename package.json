@@ -1,0 +1,15 @@
+{
+  "name": "cursonodejs",
+  "version": "1.0.0",
+  "description": "Esto es una prueba de README de github",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
